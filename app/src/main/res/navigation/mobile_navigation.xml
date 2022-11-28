@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.idzayu.viewedlist.ui.viewedList.ViewedListFragment"
+        android:label="@string/title_viewed_list"
+        tools:layout="@layout/fragment_viewed_list" >
+        <action
+            android:id="@+id/action_navigation_home_to_detailFilmFragment"
+            app:destination="@id/detailFilmFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_addFilmFragment"
+            app:destination="@id/addFilmFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_exitDialogFragment"
+            app:destination="@id/exitDialogFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notifications2"
+            app:destination="@id/navigation_notifications" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.idzayu.viewedlist.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_addFilmFragment"
+            app:destination="@id/addFilmFragment" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_exitDialogFragment"
+            app:destination="@id/exitDialogFragment" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_home2"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_home3"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFilmFragment"
+        android:name="com.idzayu.kinoline.ui.detail.AddFilmFragment"
+        android:label="AddFilmFragment" />
+    <fragment
+        android:id="@+id/detailFilmFragment"
+        android:name="com.idzayu.kinoline.ui.detail.DetailFilmFragment"
+        android:label="DetailFilmFragment" />
+    <dialog
+        android:id="@+id/exitDialogFragment"
+        android:name="com.idzayu.kinoline.ui.exit.ExitDialogFragment"
+        android:label="ExitDialogFragment" />
+
+
+</navigation>

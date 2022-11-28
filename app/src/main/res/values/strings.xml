@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Viewed list</string>
+    <string name="title_viewed_list">Viewed list</string>
+    <string name="title_subscriptions">Subscriptions</string>
+    <string name="title_profile">Profile</string>
+    <string name="textview">KJGKDFJG</string>
+    <string name="buttonDetail">Detail</string>
+    <string name="button_add">Invite a friend</string>
+    <string name="checkBoxLikeFilm">like</string>
+    <string name="writeCommet">Add your commet</string>
+    <string name="buttonSaveDetail">Save</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_main2" translatable="false">MainActivity2</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="add_see_later">Add list see later</string>
+    <string name="button_add_see_later">Add</string>
+    <string name="date_notification">Date notification</string>
+    <string name="value_date_notification">Enter date notification</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="textExit">Do you want to exit the app?</string>
+    <string name="no">No</string>
+    <string name="film_score">Film score</string>
+    <string name="yes">Yes</string>
+    <string name="category">Category</string>
+    <string name="title">title</string>
+</resources>
